@@ -130,7 +130,7 @@ if st.button("🔍 Predict Default Risk", use_container_width=True, type="primar
         if delay_score > 3:
             st.warning("🔴 High delay score — multiple months of late payments.")
         if util > 80:
-            st.warning("🔴 High credit utilization — bill close to credit limit.")
+            st.warning("🔴 High credit utilisation — bill close to credit limit.")
         if avg_pay < avg_bill * 0.1:
             st.warning("🔴 Low payment-to-bill ratio — barely paying minimum.")
 
